@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-Dec-2013, 12:23:10
+    Author     : Dean
+*/
+
+body{
+    background-color: black;
+    text-align: center;
+}
+
+h1{
+    font-family: monospace;
+    font-weight: bold;
+}
+
+h2{
+    font-family: monospace;
+    text-decoration: underline;
+    color: white;
+}
+
+p{
+    font-family: monospace;
+    color: white;
+}
+
+#header{
+    background-color: #0079E2;
+    width:15%;
+    height:100%;
+    box-shadow: 0px 5px 50px #0079E2;
+    float: left;
+    position:fixed;
+    top:0px;
+    left: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+#content{
+    width: 85%;
+    height: 100%;
+    padding: auto;
+    margin: auto;
+    float: right;
+}
+
+.ImgLink{
+    margin-top: auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:75%;
+}
+
+a { color:red }
+
+a:visited { text-decoration: none; color:red; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }

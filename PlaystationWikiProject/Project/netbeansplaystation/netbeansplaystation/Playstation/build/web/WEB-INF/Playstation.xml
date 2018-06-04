@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Playstation.xsl" type="text/xsl" ?>
+
+<wiki xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Playstation.xsd">
+    <intro>   
+        The PlayStation is a series of video game consoles created and developed by Sony Computer Entertainment with consoles in the fifth to eighth generations.
+        The brand was first introduced on December 3, 1994 in Japan with the launch of the original PlayStation console.
+        It now consists of a total of three core home consoles, as well as a media center, an online service, a line of controllers, two handhelds and a phone, as well as multiple magazines.
+    </intro>
+  
+    <history>
+        PlayStation was originally created by a Sony executive called Ken Kutaragi.
+        The console's origins date back to 1988 where it was originally a joint project between Nintendo and Sony. The PlayStation made its debut at the Consumer Electronics Show in June 1991 when Sony revealed its console. However, a day after the announcement at CES, Nintendo announced that it would be breaking its partnership with Sony, opting to go with Philips instead but using the same technology. The deal was broken by Nintendo after they were unable to come to an agreement on how revenue would be split between the two companies. 
+        At that time, negotiations were still on-going between Nintendo and Sony, with Nintendo offering Sony a "non-gaming role" regarding their new partnership with Philips. This proposal was swiftly rejected by Kutaragi who was facing increasing criticism over his work with regard to entering the video game industry from within Sony. Negotiations officially ended in May 1992 and in order to decide the fate of the PlayStation project, a meeting was held in June 1992, consisting of Sony President Ohga, PlayStation Head Kutaragi and several senior members of Sony's board. At the meeting, Kutaragi unveiled a proprietary CD-ROM-based system he had been working on which involved playing video games with 3D graphics to the board. Eventually, Sony President Ohga decided to retain the project after being reminded by Kutaragi of the humiliation he suffered from Nintendo. Nevertheless, due to strong opposition from a majority present at the meeting as well as widespread internal opposition to the project by the older generation of Sony executives, Kutaragi and his team had to be shifted from Sony's headquarters to Sony Music, a completely separate financial entity owned by Sony, so as to retain the project and maintain 
+        relationships with Philips for the MMCD development project (which helped lead to the creation of the DVD).		
+    </history>
+		
+    <Consoles>	
+        <Playstation>
+            <title>PlayStation 1</title>
+            <release>
+                <date>
+                    <day>
+                        19
+                    </day>
+                    <month>
+                        September	
+                    </month>
+                    <year>
+                        1995 
+                    </year>
+                </date>
+            </release>
+            <price>
+                £299.99 
+            </price>
+            <media>
+                CD-ROM-based media 
+            </media>
+            <best>
+                Gran Turismo 
+            </best>
+        </Playstation>
+		  
+        <PS2>
+            <title>PlayStation 2</title>
+            <release>
+                <date>
+                    <day>
+                        24
+                    </day>
+                    <month>
+                        November	
+                    </month>
+                    <year>
+                        2000
+                    </year>
+                </date>
+            </release>
+            <price>
+                £299.99
+            </price>
+           
+            <media>
+                DVD-ROM/CD-ROM
+            </media>
+            <best>
+                Grand Theft Auto: San Andreas
+            </best>  
+        </PS2>
+		  
+        <PS3>
+            <title>Playstation 3</title>
+            <release>
+                <date>
+                    <day>
+                        23
+                    </day>
+                    <month>
+                        March	
+                    </month>
+                    <year>
+                        2007 
+                    </year>
+                </date>
+            </release>
+            <price>
+                €599
+            </price>
+            
+            <media>
+                BD-ROM, DVD-ROM, CD-ROM
+            </media>
+            <best>
+                Grand Theft Auto V
+            </best>	
+        </PS3>
+			 
+        <PS4>
+            <title>Playstation 4</title>
+            <release>
+                <date>
+                    <day>
+                        29
+                    </day>
+                    <month>
+                        November	
+                    </month>
+                    <year>
+                        2013 
+                    </year>
+                </date>
+            </release>
+                
+            <price>
+                €399
+            </price>
+            
+            <media>
+                BD-ROM, DVD-ROM
+            </media>
+            <best>
+                Killzone: Shadow Fall
+            </best>	 
+        </PS4>		 
+    </Consoles>
+		
+    <Handhelds>
+        <PSP>
+            <title>Playstation Portable</title>
+            <release>
+                <date>
+                    <day>
+                        1
+                    </day>
+                    <month>
+                        September	
+                    </month>
+                    <year>
+                        2005 
+                    </year>
+                </date>
+            </release>
+            <price>
+                €249
+            </price>
+            
+            <media>
+                UMD
+            </media>
+            <best>
+                Monster Hunter Portable 3rd
+            </best>
+        </PSP>
+			
+        <VITA>
+            <title>Playstation VITA</title>
+            <release>
+                <date>
+                    <day>
+                        22
+                    </day>
+                    <month>
+                        February	
+                    </month>
+                    <year>
+                        2012 
+                    </year>
+                </date>
+            </release>
+            <price>
+                €249
+            </price>
+            
+            <media>
+                PS Vita Card
+            </media>
+            <best>
+                Uncharted: Golden Abyss
+            </best>
+        </VITA>	
+    </Handhelds>    
+</wiki>

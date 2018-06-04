@@ -1,0 +1,1 @@
+Now you can join the likes of Google Maps, Google Suggest, Backpack, and Flickr by taking advantage of the usability, interactivity, and responsiveness benefits of AJAX! 

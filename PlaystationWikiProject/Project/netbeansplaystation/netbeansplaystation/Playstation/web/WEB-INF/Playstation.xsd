@@ -1,0 +1,172 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="wiki">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="intro"/>
+                <xs:element type="xs:string" name="history"/>
+                <xs:element name="Consoles">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Playstation">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element name="release">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="date">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:float" name="day"/>
+                                                                <xs:element type="xs:string" name="month"/>
+                                                                <xs:element type="xs:float" name="year"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="price"/>
+                                        <xs:element type="xs:string" name="media"/>
+                                        <xs:element type="xs:string" name="best"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="PS2">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element name="release">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="date">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:float" name="day"/>
+                                                                <xs:element type="xs:string" name="month"/>
+                                                                <xs:element type="xs:float" name="year"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="price"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="media"/>
+                                        <xs:element type="xs:string" name="best"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="PS3">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element name="release">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="date">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:float" name="day"/>
+                                                                <xs:element type="xs:string" name="month"/>
+                                                                <xs:element type="xs:float" name="year"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="price"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="media"/>
+                                        <xs:element type="xs:string" name="best"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="PS4">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element name="release">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="date">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:float" name="day"/>
+                                                                <xs:element type="xs:string" name="month"/>
+                                                                <xs:element type="xs:float" name="year"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="price"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="media"/>
+                                        <xs:element type="xs:string" name="best"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Handhelds">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="PSP">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element name="release">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="date">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:float" name="day"/>
+                                                                <xs:element type="xs:string" name="month"/>
+                                                                <xs:element type="xs:float" name="year"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="price"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="media"/>
+                                        <xs:element type="xs:string" name="best"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="VITA">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="title"/>
+                                        <xs:element name="release">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="date">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:float" name="day"/>
+                                                                <xs:element type="xs:string" name="month"/>
+                                                                <xs:element type="xs:float" name="year"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element type="xs:string" name="price"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="media"/>
+                                        <xs:element type="xs:string" name="best"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
